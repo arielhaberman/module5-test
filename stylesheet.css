@@ -1,0 +1,167 @@
+body {  
+    font-family: Tahoma, Geneva, sans-serif;  
+    background-color: #2a445e;
+}  
+h1{  
+    text-align: center;  
+    color: white;  
+    padding: 20px;  
+}  
+h2 {
+    color: white;  
+}
+p {
+    color: white; 
+}
+#post_title {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+a {
+    color: white;
+}
+.topcorner {
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.container{  
+    display: flex;
+    width: 40%;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 80px;  
+    background: white;   
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.comment {
+    width: 90%;
+    background: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto; 
+    border-radius: 10px;
+}
+#loginFailed {
+    text-align: center; 
+    color: white; 
+    padding: 10px;  
+}
+#failed {
+    text-align: center; 
+    color: white; 
+    padding: 10px;
+}
+.containerTwo{  
+    display: flex;
+    width: 80%;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 40px;  
+    background: white;     
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    width: 75%;
+    background: white;
+    padding: 30px;
+    align-items: center;
+    float: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+#sidebar {
+    background: white;
+    width: 11%;
+    padding: 30px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    margin-top: 27px;
+    margin-right: 27px;
+}
+label{  
+    color: #2a445e;  
+    font-size: 25px;  
+}  
+.textfield{  
+    width: 300px;  
+    height: 30px;  
+    border-radius: 20px;  
+    border: 1px solid #D3D3D3
+}
+.title {
+    width: 400px;
+}
+#publish_button {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto; 
+    width: 125px;  
+    height: 30px;  
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #1e3446;
+}
+
+.button{  
+    width: 300px;  
+    height: 30px;  
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #1e3446;
+}  
+
+.button2 {
+    width: 100px;  
+    height: 30px;  
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #1e3446;
+}
+
+.blacklink {
+    color: black;
+    padding: none;
+}
+p{
+    text-align: center;  
+}
+#edit {
+    color: black;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#delete {
+    color: black;
+    position:absolute;
+    top:10px;
+    right:90px;
+}
+#editcomment {
+    color: black;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#deletecomment {
+    color: black;
+    position:absolute;
+    top:10px;
+    right:120px;
+}
+.whitelink {
+    color: white;
+}
