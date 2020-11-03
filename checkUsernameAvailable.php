@@ -29,7 +29,7 @@
     for ($i = 0; $i < sizeof($username_array); $i++) {
         if ($username == $username_array[$i])  {
             $_SESSION["username_taken"] = TRUE;
-            header("Location: /~joyceroh/module5-group/newUser.php");
+            header("Location: /~arielhaberman/module5-test/newUser.php");
             exit;
         }
     }
@@ -47,7 +47,7 @@
 
     $stmt2->close();
 
-    header("Location: /~joyceroh/module5-group/createAccountSuccess.php");
+    header("Location: /~arielhaberman/module5-test/createAccountSuccess.php");
     exit;
 
 ?>
