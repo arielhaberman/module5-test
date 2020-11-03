@@ -31,12 +31,12 @@
             $_SESSION["username"] = $username;
             $_SESSION["invalid_login"] = FALSE;
             $_SESSION["registered"] = TRUE;
-            header("Location: /~joyceroh/module5-group/mainpage.php");
+            header("Location: /~arielhaberman/module5-test/mainpage.php");
             exit;
         }
     }
     
     $_SESSION["invalid_login"] = TRUE;
-    header("Location: /~joyceroh/module5-group/login.php");
+    header("Location: /~arielhaberman/module5-test/login.php");
     exit;
 ?>
