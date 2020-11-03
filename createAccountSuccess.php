@@ -9,6 +9,6 @@
     <p1>Your account was successfully created.</p1>
     <br>
     <br>
-    <a href="http://ec2-3-135-228-70.us-east-2.compute.amazonaws.com/~arielhaberman/module5-test/login.php">Go back to login page</a>
+    <a href="http://ec2-18-219-3-104.us-east-2.compute.amazonaws.com/~arielhaberman/module5-test/login.php">Go back to login page</a>
 </body>
 </html>
